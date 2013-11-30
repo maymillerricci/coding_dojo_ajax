@@ -1,0 +1,26 @@
+* {
+	font-family: sans-serif;
+}
+/*fix bug where datepicker shows initial extra box at the start*/
+#ui-datepicker-div {
+	display: none;
+}
+li {
+	display: inline;
+}
+a {
+	text-decoration: none; 
+	color: blue;
+	padding: 3px;
+} 
+a.clicked {
+	background-color: blue;
+	color: white;
+}
+table {
+	border-collapse: collapse;
+}
+th, td {
+	padding: 5px;
+	border: 1px solid darkgray;
+}

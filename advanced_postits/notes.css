@@ -1,0 +1,56 @@
+* {
+	font-family: sans-serif;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+textarea {
+	width: 160px;
+	height: 160px;
+	background-color: lightyellow;
+	font-size: 1em;
+	border: 1px solid black;
+
+}
+#error {
+	color: firebrick;
+}
+#new_note {
+	padding-top: 30px;
+	margin-left: 15px;
+	clear: both;
+}
+div.note {
+	width: 160px;
+	height: 160px;
+	background-color: lightyellow;
+	margin: 15px;
+	border: 1px solid black;
+	float: left;
+}
+.note_title {
+	background-color: #FFCC66;
+	padding: 5px;
+}
+.note_description {
+	padding: 5px;
+	width: 150px;
+	height: 122px;
+}
+.note_description_edit textarea {
+	width: 150px;
+	height: 122px;
+	margin-left: -1px;
+	border-top: none;
+	padding: 5px;
+	background-color: #FFFFCC;
+}
+#new_note_title {
+	width: 200px;
+	font-size: .9em;
+	margin-bottom: 10px;
+}
+.delete_button {
+	margin-top: 5px;
+}
